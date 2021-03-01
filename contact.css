@@ -1,0 +1,201 @@
+body{
+    
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("3.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 100vh !important;
+    line-height: 1.5 !important;
+    box-sizing: border-box !important;
+    color:rgba(248, 248, 248, 0.938) !important;
+    
+   }
+   
+   /* background image  */
+   /* #fancy-form{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("3.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 100vh !important;
+   } */
+   
+   /* container utility */
+   #fancy-form .container{
+     width: 80% !important;
+     margin: auto !important;
+     overflow: hidden !important;
+   }
+   
+   /* main div */
+   .form-sections{
+     margin-top: 5rem !important;
+     display: grid !important;
+     grid-gap: 5rem !important;
+     grid-template-columns: repeat(2, 1fr) !important;
+   }
+   
+   /* Form-left styling */
+   .Form-left h1{
+     color: #fff !important;
+     padding: 0 !important;
+     margin: 0 !important;
+   }
+   
+   .Form-left h4{
+     padding: 0 !important;
+     margin: 0 !important;
+     color: rgb(243, 235, 235) !important;
+   }
+   .line{
+     border-bottom: 2px solid rgb(12, 168, 207) !important;
+     width: 8% !important;
+     margin-left: 0 !important;
+   }
+   .Form-left span{
+     color: rgb(187, 182, 182) !important;
+     font-weight: bold !important;
+   }
+   
+   .Form-left hr{
+     width: 25rem !important;
+     margin-left: 0 !important;
+     border: 1px solid rgb(53, 52, 52) !important;
+   }
+   
+   /* socail media icons */
+   .fa {
+     padding: 8px !important;
+     font-size: 18px !important;
+     width: 50px !important;
+     text-align: center !important;
+     text-decoration: none !important;
+     /* margin: 5px 2px; */
+     color: rgb(187, 182, 182) !important;
+   }
+   .fa:hover{
+     color: rgb(16, 135, 190) !important;
+   }
+   
+   
+   
+   /* Form Right Styling */
+   .Form-right h1{
+     color: #fff !important;
+     padding: 0 !important;
+     margin: 0 !important;
+   }
+   
+   .form{
+     padding-top: 2rem !important;
+   }
+   
+   .form h5{
+     padding: 0 !important;
+     margin: 0 !important;
+     color: rgb(228, 218, 218) !important;
+   }
+   .form input{
+     padding:0.6rem !important;
+     width: 27rem !important;
+     border: none !important;
+     background-color:rgba(136, 133, 133, 0.3) !important;
+     color:white !important;
+     border: none !important;
+     outline:none !important;
+   }
+   
+   .form textarea{
+     padding:0.6rem !important;
+     width: 27rem !important;
+     border: none !important;
+     background-color:rgba(136, 133, 133, 0.3) !important;
+     color:white !important;
+     border: none !important;
+     outline:none !important;
+    }
+   
+    .form button{
+       width: 9rem !important;
+       background: rgb(12, 168, 207) !important;
+       padding: 5px !important;
+       outline: none !important;
+       border-color: transparent !important;
+       color: #fff !important;
+       font-size: 15px !important;
+       font-weight: bold !important;
+       letter-spacing: 2px !important;
+       text-align: center !important;
+       margin-top: 0.9rem !important;
+       border-radius: 50px !important;
+       cursor: pointer !important;
+    }
+    .fnt{
+        margin: 10px !important;
+
+    }
+    .fnt2{
+        margin-left: 5px !important;
+        padding-top: 25px !important;
+    }
+    .fl li{
+        color: black !important;
+    }
+    .footer{
+        background-color: rgba(0, 0, 0, 0.822) !important;
+        color: white !important;
+    }
+    .f{
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .p{
+        padding-top: 100px !important;
+    }
+    .icons{
+        padding:20px !important;
+    }
+   
+    /* media queries */
+      @media (max-width: 968px){
+   
+        #fancy-form .form-sections{
+          display: block !important;
+          width: 100% !important;
+          text-align: left !important;
+             }
+   
+         /* background image  */
+         #fancy-form{
+           background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("3.jpg") !important;
+           background-size: cover !important;
+           background-position: center !important;
+           height: auto !important;
+           width: 100% !important;
+            }
+   
+         .form-sections .Form-right{
+           margin-top: 2rem !important;
+           margin-bottom: 2rem !important;
+            }
+   
+       /* socail media icons */
+           .fa{
+            margin: 10px;
+            padding: 8px !important;
+            font-size: 18px !important;
+            width: 30px !important;
+            text-align: center !important;
+            text-decoration: none !important;
+            color: rgb(187, 182, 182) !important;
+                }
+                .fnt2{
+                    display: flex;
+                }
+             }
+             .logo{
+                border: 6px solid !important;
+                border-radius: 10px !important;
+                padding: 10px;
+                border-left: rgb(0, 0, 255) !important;
+                border-right: rgb(0, 0, 255) !important;
+            
+            }
